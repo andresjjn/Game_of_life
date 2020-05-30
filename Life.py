@@ -18,6 +18,7 @@ import time
 
 
 pygame.init()
+pygame.display.set_caption('Game of life')
 wh, ht = (500, 500)
 screen = pygame.display.set_mode((ht, wh))
 back_color = (25, 25, 25)
